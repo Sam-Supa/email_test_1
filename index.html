@@ -90,6 +90,34 @@
             height: 2px;
             background-color: #e3e9e9;
             margin: 4% auto;
+            width: 96%; /*to make 2% padding side basiccally*/
+        }
+
+        .two-col {
+            float: left; /*This make it display beside one another*/
+            width: 40%;
+            padding: 2%; /*This will make up 2% of the width*/
+        }
+
+        .two-col a {
+            color: #e8f48d;
+            text-decoration: none; /*get rid of an underline*/
+            background-color: rgb(242, 30, 93);
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center; /*make the text center*/ 
+            padding-bottom: 3%;
+        }
+
+        @media (max-width: 600px) {
+            .two-col {
+                float: left;
+                width: 46%;
+                padding: 2%;
+            }
+
         }
 
 
